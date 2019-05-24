@@ -61,6 +61,5 @@ h2 {
   background-color: black;
 }
 .column {
-  width: 350px;
-  float: right;
+  margin-right: 350px;
 }
