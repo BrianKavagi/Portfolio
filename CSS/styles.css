@@ -60,3 +60,7 @@ h2 {
 .title {
   background-color: black;
 }
+.column {
+  width: 350px;
+  float: right;
+}
