@@ -15,6 +15,11 @@ h2 {
   width: 100%;
   max-width: 400px;
 }
+/* Make the image to responsive */
+.image {
+  width: 100%;
+  height: auto;
+}
 /* The overlay effect (full height and width) - lays on top of the container and over the image */
 .overlay {
   position: absolute;
@@ -46,9 +51,4 @@ h2 {
 /* When you move the mouse over the icon, change color */
 .fa-user:hover {
   color: #eee;
-}
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
 }
