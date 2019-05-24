@@ -9,14 +9,12 @@ h1 {
 h2 {
   color: black;
 }
-
 /* Container needed to position the overlay . Adjust the width as needed */
 .container {
   position: relative;
   width: 100%;
   max-width: 400px;
 }
-
 /* The overlay effect (full height and width) - lays on top of the container and over the image */
 .overlay {
   position: absolute;
@@ -30,12 +28,10 @@ h2 {
   transition: .3s ease;
   background-color: blue;
 }
-
 /* when you mouse over the container, fade in the overlay icon*/
 .container:hover .overlay {
   opacity: 1;
 }
-
 /* The icon inside the overlay is positioned in the middle vertically and horizontally */
 .icon {
   color: white;
@@ -47,12 +43,10 @@ h2 {
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
-
 /* When you move the mouse over the icon, change color */
 .fa-user:hover {
   color: #eee;
 }
-
 .image {
   height: 200px;
   width:100%;
