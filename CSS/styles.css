@@ -60,6 +60,6 @@ h2 {
 .title {
   background-color: black;
 }
-.column {
-  margin-right: 350px;
+.img {
+  float: right;
 }
