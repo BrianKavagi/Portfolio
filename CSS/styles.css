@@ -1,5 +1,8 @@
 @media screen and (min-width: 480px) {
-}
+  body{
+   background-image: potrait;
+  }
+ }
 
 body{
   padding: 0;
