@@ -1,3 +1,6 @@
+@media screen and (min-width: 480px) {
+}
+
 body{
   padding: 0;
   margin: 0;
@@ -6,17 +9,21 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
 h1 {
   color: blue;
 }
+
 /* Add a green background color to the top navigation */
 .topnav {
   background-color: white;
   overflow: hidden;
 }
+
 h2 {
   color: black;
 }
+
 /* Container needed to position the overlay . Adjust the width as needed */
 .container {
   position: relative;
@@ -65,9 +72,11 @@ h2 {
 .fa-user:hover {
   color: #eee;
 }
+
 .title {
   background-color: black;
 }
+
 img {
   float: left;
 }
